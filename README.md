@@ -1,7 +1,6 @@
-# 📘 Lista de Exercícios – Cálculo Numérico  
+**👨‍🎓 Aluno:** Victor Hugo Vieira Tavares  
 **📅 Período:** 2025.1  
 **👨‍🏫 Professor:** Carlos Wilson Dantas de Almeida  
-**👨‍🎓 Aluno:** Victor Hugo Vieira Tavares  
 **📚 Matrícula:** 123110712  
 
 ---
@@ -39,3 +38,4 @@ Este repositório é de uso **acadêmico** e está aberto para consulta.
 Sugestões ou correções são sempre bem-vindas via **Pull Request** ou **Issue**.
 
 ---
+
