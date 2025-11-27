@@ -1,0 +1,21 @@
+# Método dos Trapézios composto
+
+import math
+
+a = 0
+b = math.pi
+n = 4
+h = (b - a) / n
+
+def f(x):
+    return math.sin(x)  # altere a função se desejar
+
+soma = f(a) + f(b)
+
+for i in range(1, n):
+    x = a + i*h
+    soma += 2*f(x)
+
+I = (h/2) * soma
+
+print(f'A integral aproximada pelo método dos trapézios composto é: {I}')

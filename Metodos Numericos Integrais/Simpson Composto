@@ -1,0 +1,22 @@
+import math
+
+a = 0
+b = 2
+n = 4  # número de subintervalos (deve ser par)
+h = (b - a) / n
+
+def f(x):
+    return math.sin(x)  # altere a função conforme desejar
+
+soma = f(a) + f(b)
+
+for i in range(1, n):
+    x = a + i*h
+    if i % 2 == 0:
+        soma += 2*f(x)
+    else:
+        soma += 4*f(x)
+
+I = (h/3) * soma
+
+print(f'A integral aproximada pelo método de Simpson 1/3 é: {I}')

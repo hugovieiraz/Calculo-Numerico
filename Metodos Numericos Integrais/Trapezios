@@ -1,0 +1,12 @@
+# Método do Trapézio simples
+import math
+a = 0
+b = 2
+
+def f(x):
+    return math.sin(x)  # altere a função se desejar
+
+h = b - a
+I = (h / 2) * (f(a) + f(b))
+
+print(f'A integral aproximada pelo método do Trapézio simples é: {I}')

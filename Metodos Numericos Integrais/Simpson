@@ -1,0 +1,16 @@
+import math
+
+a = 2
+b = 1
+
+def f(x):
+    return math.sin(x)  # exemplo, pode mudar a função
+
+h = (b - a) / 2
+x0 = a
+x1 = a + h
+x2 = b
+
+I = (h / 3) * (f(x0) + 4*f(x1) + f(x2))
+
+print(f'A integral aproximada pelo método de Simpson simples é: {I}')
